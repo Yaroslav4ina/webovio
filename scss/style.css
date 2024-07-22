@@ -22,6 +22,13 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1175px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .header {
   padding-top: 24px;
 }
@@ -33,6 +40,11 @@ a {
 .box-one {
   position: absolute;
   padding-top: 24px;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
 }
 
 .hero {
@@ -57,7 +69,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   color: #fff;
-  padding-top: 121px;
   margin-bottom: 22px;
 }
 
