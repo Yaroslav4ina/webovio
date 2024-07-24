@@ -1,18 +1,14 @@
 .header {
-padding-top: 24px;
+  padding-top: 24px;
 }
 
 .logo {
-    margin-right: 813px;
+  margin-right: 813px;
 }
 
 .box-one {
-    position: absolute;
-    padding-top: 24px;
-}
-
-.box-two {
-
+  position: absolute;
+  padding-top: 24px;
 }
 
 .menu-btn {
@@ -21,51 +17,51 @@ padding-top: 24px;
 }
 
 .hero {
-background-color: grey;
-background-position: center;
-background-repeat: no-repeat;
-padding-top: 188px;
-padding-bottom: 121px;
+  background-color: grey;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 188px;
+  padding-bottom: 121px;
 
-@media screen and (min-width: 1186px) {
+  @media screen and (min-width: 1186px) {
     background-image: url(../img/hero-@1x-desktop.png);
     @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: url(../img/hero-@2x-desktop.png);
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/hero-@2x-desktop.png);
     }
-    }
+  }
 }
 
 .hero-text {
-font-weight: 400;
-font-size: 14px;
-color: #fff;
-margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 22px;
 }
 
 .hero-title {
-font-weight: 700;
-font-size: 60px;
-line-height: 123%;
-color: #fff;
-width: 616px;
-margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 123%;
+  color: #fff;
+  width: 616px;
+  margin-bottom: 24px;
 }
 
 .hero-text-two {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 162%;
-    color: #fff;
-    margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #fff;
+  margin-bottom: 45px;
 }
 
 .hero-link {
-    // font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #ffd723;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #ffd723;
 }
+
